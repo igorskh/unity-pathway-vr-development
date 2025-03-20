@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Box
   - Trail
+  - Anchor
   layers:
   - Default
   - TransparentFX

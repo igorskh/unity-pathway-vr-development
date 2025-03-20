@@ -56,17 +56,7 @@ MonoBehaviour:
       - rid: 4309449182384226324
       - rid: 4309449182384226325
     m_RuntimeSettings:
-      m_List:
-      - rid: 4309449182384226306
-      - rid: 4309449182384226308
-      - rid: 4309449182384226310
-      - rid: 4309449182384226311
-      - rid: 4309449182384226312
-      - rid: 4309449182384226313
-      - rid: 4309449182384226315
-      - rid: 4309449182384226317
-      - rid: 4309449182384226321
-      - rid: 4309449182384226324
+      m_List: []
   m_AssetVersion: 8
   m_ObsoleteDefaultVolumeProfile: {fileID: 0}
   m_RenderingLayerNames:
@@ -204,6 +194,12 @@ MonoBehaviour:
         m_CoreBlitColorAndDepthPS: {fileID: 4800000, guid: d104b2fc1ca6445babb8e90b0758136b,
           type: 3}
         m_SamplingPS: {fileID: 4800000, guid: 04c410c9937594faa893a11dceb85f7e, type: 3}
+        m_TerrainDetailLit: {fileID: 4800000, guid: f6783ab646d374f94b199774402a5144,
+          type: 3}
+        m_TerrainDetailGrassBillboard: {fileID: 4800000, guid: 29868e73b638e48ca99a19ea58c48d90,
+          type: 3}
+        m_TerrainDetailGrass: {fileID: 4800000, guid: e507fdfead5ca47e8b9a768b51c291a1,
+          type: 3}
     - rid: 4309449182384226312
       type: {class: URPDefaultVolumeProfileSettings, ns: UnityEngine.Rendering.Universal,
         asm: Unity.RenderPipelines.Universal.Runtime}
