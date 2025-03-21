@@ -56,6 +56,7 @@ public class PlayVideo : MonoBehaviour
     public void NextClip()
     {
         index = ++index % videoClips.Count;
+        Debug.Log(index);
         Play();
     }
 
@@ -85,6 +86,14 @@ public class PlayVideo : MonoBehaviour
 
     public void Play()
     {
+        if (videoPlayer.isPlaying)
+        {
+            videoPlayer.Stop();
+        }
+        if (index >= videoClips.Count || index < 0)
+            index = 0;
+
+        videoPlayer.clip = videoClips[index];
         videoMaterial.color = Color.white;
         videoPlayer.Play();
     }
